@@ -1,42 +1,42 @@
-<!-- Background image -->
-<img src="imgs/GitBack.png" alt="Background" style="width:100%; height:auto; display:block;">
+<!-- Background banner -->
+<img src="imgs/GitBack.png" alt="Egor Folley banner" style="width:100%; height:auto; display:block;">
 
-<!-- Badge Section -->
-<p align="center" style="margin-top:20px;">
+<p align="center" style="margin-top:16px;">
   <a href="https://efolley.com/">
-    <img src="https://img.shields.io/badge/EFolley-blue?style=for-the-badge&logo=nucleo&logoColor=white" height=100></a>
+    <img src="https://img.shields.io/badge/EFolley-EFolley-2563EB?style=for-the-badge&logo=nucleo&logoColor=white" height="30" alt="Portfolio">
   </a>
-  <a href="https://www.linkedin.com/in/egor-folley"> 
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="100" alt="LinkedIn badge">
+  <a href="https://www.linkedin.com/in/egor-folley">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn">
   </a>
+  
   <a href="https://www.twitter.com/egor_folley">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="100" alt="Twitter badge">
-  </a> 
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="30" alt="X/Twitter">
+  </a>
 </p>
 
 ---
 
-## Hi there!
+## Hello World
 
-I'm Egor, and I deploy AI systems end-to-end: customer discovery → technical implementation → production.
+I'm Egor Folley, helping enterprises solve real business problems by building AI systems, from customer discovery to production deployment.
 
-### About me
+### Past life
+- 7+ years shipping GenAI, multi-agent RAG, and vision AI systems to production
+- Delivered 12 production AI systems across 2 enterprises, 4 SMBs, and 6 startups, owning the loop from scoping through deployment and handoff
+- Led $2M engagement - ontology-first deal-evaluation system that cut PE diligence from 4 months to ~1 hour using a 6-agent ingestion pipeline over 400+ pages of unstructured PDF/Excel
+- 2x AI founder: ARTIAL (Techstars, autonomous drone navigation) and Modalina AI (NVIDIA Inception, multimodal vision AI)
+- BSc in Mechatronics & Robotics; dropped out of PhD to build ARTIAL
 
-* 6+ years shipping GenAI, multi-agent RAG, and vision AI systems
-* Delivered 12 consulting projects - 2 enterprise, 4 SMBs, and 6 startups - AI audit and custom GenAI code (legacy/from scratch)
-* Founded 2 AI startups: ARTIAL (Techstars & $10k in rev) and Stealth AI (NVIDIA Inception & $300 MRR)
-* BSc in Mechatronics & Robotics, PhD dropout
+### Selected work
+- **Autonomous Drone Navigation**: Fully autonomous visual navigation on NVIDIA Jetson Nano (4GB) in C++/ROS with ORB-SLAM3 and PX4 autopilot. Live flights: [indoor](https://www.youtube.com/watch?v=koDdYc0uOd0), [outdoor](https://www.youtube.com/watch?v=Xw3yJWd3-2w)
+- **Construction Vision AI Agent**: Real-time safety analysis with multimodal LLMs on GCP; saved supervisors ~15 h/week. Presented at [BuiltWorlds AI Conference](https://builtworlds.com/news/aiml-demos/).
+- **Multi-agent RAG Platform**: Cut technology-adoption time for field managers from 6 weeks to 3. LangGraph + GPT-4o, Milvus, AWS ECS.
+- **Agentic GraphRAG Copilot**: Embedded copilot that reduced cross-team data retrieval by 82% (hours to minutes). OpenAI/Anthropic models, LangChain, AWS Neptune.
 
-### My work
-
-* **[Construction Vision AI Agent](GITHUB_REPO_LINK)**: Real-time safety analysis using multimodal LLMs deployed on GCP. Saved supervisors 12-15 h/week. Presented at [BuiltWorld AI Conference](BUILTWORLDLINK).
-* **Multi-agent RAG Platform**: Reduced time-to-value by 25% for field managers adopting new tech. Built with LangGraph + GPT-4o, Milvus VectorDB, AWS ECS.
-* **Autonomous Drone Navigation**: Fully autonomous visual navigation on Nvidia Jetson Nano using C++ and ROS. [Indoor demo flight](INDOOR_LINK), [Outdoor demo flight](OUTDOOR_LINK).
-* **Agentic RAG Copilot**: Embedded copilot that reduced cross-team data retrieval by 82%. OpenAI/Anthropic models with LangChain, LlamaIndex, NoSQL.
+> Most systems above are client-delivered under NDA, so production code sits in private repos. I publish sanitized, open versions in my pinned repositories.
 
 ### Stack I ship with
-
-`Python` `TypeScript` `LangGraph` `LangChain` `LlamaIndex` `PyTorch` `FastAPI` `Docker` `AWS` `GCP` `Azure` `ROS` `C++`
+`Python` `TypeScript` `LangGraph` `LangChain` `LangSmith` `LlamaIndex` `Ontology / Knowledge Graphs` `Milvus` `PyTorch` `FastAPI` `Docker` `AWS` `GCP` `Azure` `ROS` `C++`
 
 ---
 
