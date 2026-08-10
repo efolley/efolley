@@ -5,11 +5,11 @@
   <a href="https://efolley.com/">
     <img src="https://img.shields.io/badge/EFolley-EFolley-2563EB?style=for-the-badge&logo=nucleo&logoColor=white" height="30" alt="Portfolio">
   </a>
-  <a href="https://www.linkedin.com/in/egor-folley">
+  <a href="https://www.linkedin.com/in/efolley">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn">
   </a>
   
-  <a href="https://www.twitter.com/egor_folley">
+  <a href="https://www.twitter.com/_efolley">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="30" alt="X/Twitter">
   </a>
 </p>
