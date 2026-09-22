@@ -17,11 +17,11 @@
 
 ## Hello World
 
-I'm Egor Folley, FDE AI at Capco in New York. I help enterprises solve real business problems with AI systems, from C-suite discovery to production deployment. Currently, this girhubis under reconstruction.
+I'm Egor Folley, Forward-Deployed AI Engineer (FDE) at Capco in New York. I help enterprises solve real business problems with AI systems, from C-suite discovery to production deployment.
 
 ### 🛠️ Now building
 
-An open, production-grade reference stack for enterprise agents: 1 shared platform, 3 verticals. Design docs and ADRs land first, code follows. Progress updates weekly.
+An open, production-grade reference stack for enterprise agents: 1 shared platform, 3 verticals. Design docs and ADRs land first, code follows. Progress updates weekly (under reconstruction now)
 
 | Project | What it is | Status | Target |
 |---|---|---|---|
