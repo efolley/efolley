@@ -1,57 +1,50 @@
 <!-- Background banner -->
-<img src="imgs/GitBack.png" alt="Egor Folley banner" style="width:100%; height:auto; display:block;">
+<img src="imgs/GitBack.png" alt="Egor Folley" width="100%">
 
-<p align="center" style="margin-top:16px;">
-  <a href="https://efolley.com/">
-    <img src="https://img.shields.io/badge/EFolley-EFolley-2563EB?style=for-the-badge&logo=nucleo&logoColor=white" height="30" alt="Portfolio">
-  </a>
-  <a href="https://www.linkedin.com/in/efolley">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn">
-  </a>
-  <a href="https://www.twitter.com/_efolley">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="30" alt="X/Twitter">
-  </a>
+<p align="center">
+  <a href="https://efolley.com/"><img src="https://img.shields.io/badge/Website-efolley.com-0F172A?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/efolley"><img src="https://img.shields.io/badge/LinkedIn-efolley-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.twitter.com/_efolley"><img src="https://img.shields.io/badge/X-@__efolley-000000?style=flat-square&logo=x&logoColor=white" alt="X"></a>
 </p>
 
+# Egor Folley
+**FDE AI** | New York
+
+Client-facing AI engineer building production agentic systems end-to-end, from C-level discovery to architecture and deployment. Led a $2M AI transformation for $90B AUM PE firm with a team of 8. Deployed 12+ GenAI systems with production architecture, evals, governance, and observability. 2X AI and robotics founder (Techstars, NVIDIA Inception).
+
+## Results
+
+| Outcome | Where |
+| --- | --- |
+| Due diligence **4 months → ~1 hour** | $2M program, $90B AUM PE firm |
+| **93% Recall@10** on a 100+ question golden set | Regression-gated enterprise RAG-KAG |
+| Technology adoption **6 weeks → 3** | 5-agent platform, 750 documents |
+| Integration effort **−60%** | MCP server over 18 internal APIs |
+| Data retrieval **hours → minutes** | GraphRAG copilot, ~3,000-entity graph |
+| **~15 h/week** returned to supervisors | Multimodal vision AI, 5 VLM agents |
+
+## How I work
+
+Discovery with the people who own the P&L. Scope to one workflow with a measured baseline. Ship the thin production path first: retrieval, evals, guardrails, tracing. Prove it against the baseline and publish the misses. Hand off a runbook, eval gates, and owners.
+
+Regulated, NDA-bound environments. Client code stays private, so the repos below are open rebuilds of the same patterns on public data.
+
+## Building in public
+
+| Project | What it is | Status |
+| --- | --- | --- |
+| [Rivet-KAG](https://github.com/efolley/rivet-kag) | Hybrid KAG over your documents, answers cited to source | 🟢 In progress |
+| [AgentGate](https://github.com/efolley/agentgate) | Auth, routing, and audit for every agent and MCP call | 🟡 Design |
+| [EvalForge](https://github.com/efolley/evalforge) | Auto-generated golden sets and red-team evals | ⚪ Planned |
+| [OpenDiligence](https://github.com/efolley/opendiligence) | Multi-agent diligence over SEC EDGAR filings | ⚪ Planned |
+| [RegGraph](https://github.com/efolley/reggraph) | Regulatory change mapped onto policy and controls | ⚪ Planned |
+
+Each ships with an architecture diagram, ADRs, an eval scorecard with real numbers, and cost/latency per query. If a number is bad, it goes in the README anyway.
+
+## Stack
+
+Python · TypeScript · LangGraph · LangChain · LangSmith · MCP · GraphRAG · ontologies · Neo4j · Milvus · FastAPI · PostgreSQL · Redis · Docker · Azure · AWS · GCP · Palantir AIP
+
 ---
 
-## Hello World
-
-I'm Egor Folley, Forward-Deployed AI Engineer (FDE) at Capco in New York. I help enterprises solve real business problems with AI systems, from C-suite discovery to production deployment.
-
-### 🛠️ Now building
-
-An open, production-grade reference stack for enterprise agents: 1 shared platform, 3 verticals. Design docs and ADRs land first, code follows. Progress updates weekly (under reconstruction now)
-
-| Project | What it is | Status | Target |
-|---|---|---|---|
-| [AgentGate](https://github.com/efolley/agentgate) | Control plane that authenticates, routes, rate-limits and audits every agent and MCP tool call, backed by a permissions knowledge graph | 🟡 Design | Oct 2026 |
-| [EvalForge](https://github.com/efolley/evalforge) | Agents mine an enterprise KG to generate golden sets and red-team cases, then run regression evals over MCP | ⚪ Planned | Nov 2026 |
-| [OpenDiligence](https://github.com/efolley/opendiligence) | Multi-agent diligence over SEC EDGAR filings in a company KG. Public rebuild of my PE deal-evaluation pattern, no client IP | ⚪ Planned | Nov 2026 |
-| [RegGraph](https://github.com/efolley/reggraph) | Maps SEC, FINRA and EU AI Act changes onto a firm's policy and controls graph | ⚪ Planned | Dec 2026 |
-| [WarRoom](https://github.com/efolley/warroom) | Multi-agent incident commander: triage and RCA over a service-dependency graph, human-approved rollbacks | ⚪ Planned | Dec 2026 |
-
-**Every repo ships with:** LangGraph multi-agent orchestration · Neo4j GraphRAG · MCP servers · OTel/LangSmith tracing · evals and guardrails · API gateway with retries, circuit breakers and DLQ · Postgres + Redis · architecture diagram, eval scorecard, cost and latency numbers.
-
-### Production track record
-- 7+ years shipping GenAI, multi-agent RAG and vision AI systems to production
-- 12+ production AI systems across 2 enterprises, 6 SMBs and 4 startups, owning the loop from scoping through deployment and handoff
-- Led a $2M AI transformation for a $90B AUM PE firm: ontology-first deal evaluation that cut diligence from 4 months to ~1 hour. 6-agent ingestion pipeline over 20,000+ pages/month, production RAG-KAG on Azure, 93% Recall@10 on a 100+ question golden set
-- 2x AI founder: ARTIAL (Techstars, autonomous drone navigation) and Modalina AI (NVIDIA Inception, multimodal vision AI)
-- BSc in Mechatronics & Robotics; left a PhD to build ARTIAL
-
-### Selected work
-- **Autonomous Drone Navigation**: Fully autonomous visual navigation on NVIDIA Jetson Nano (4GB) in C++/ROS with ORB-SLAM3 and PX4. Live flights: [indoor](https://www.youtube.com/watch?v=koDdYc0uOd0), [outdoor](https://www.youtube.com/watch?v=Xw3yJWd3-2w)
-- **Construction Vision AI Agent**: 5 VLM agents with hybrid RAG for real-time safety analysis on GCP; saved supervisors ~15 h/week. Presented at [BuiltWorlds AI Conference](https://builtworlds.com/news/aiml-demos/).
-- **Multi-agent RAG Platform**: 5-agent platform that cut technology adoption for field managers from 6 weeks to 3. LangGraph, LangSmith, Milvus, Google App Engine.
-- **Agentic GraphRAG Copilot**: Embedded copilot over a ~3,000-entity knowledge graph that cut cross-team data retrieval from hours to minutes, with a DeepEval regression suite.
-- **Enterprise MCP Server**: Exposed 18 internal APIs to agents via FastMCP/FastAPI, cutting integration effort by 60%.
-
-> Client systems above were delivered under NDA, so that code stays private. The **Now building** repos are open rebuilds of the same patterns on public data.
-
-### Stack I ship with
-`Python` `TypeScript` `LangGraph` `LangChain` `LangSmith` `LlamaIndex` `MCP` `GraphRAG` `Ontology / Knowledge Graphs` `Neo4j` `Milvus` `Palantir AIP` `PyTorch` `FastAPI` `Docker` `AWS` `GCP` `Azure` `ROS` `C++`
-
----
-
-**Contact**: egor@efolley.com
+**egor@efolley.com** · [efolley.com](https://efolley.com)
