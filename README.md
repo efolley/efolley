@@ -34,6 +34,7 @@ Regulated, NDA-bound environments. Client code stays private, so the repos below
 | Project | What it is | Status |
 | --- | --- | --- |
 | [Rivet-KAG](https://github.com/efolley/rivet-kag) | Hybrid KAG over your documents, answers cited to source | 🟢 In progress |
+| [Vision AI Agent for Construction Safety](https://github.com/efolley/Vision-AI-Agent-for-Construction-Safety) | My second startup: built a multi-agent vision system for construction-site safety; MVP complete and now hardening it for production | 🟢 Prod in progress |
 | [AgentGate](https://github.com/efolley/agentgate) | Auth, routing, and audit for every agent and MCP call | 🟡 Design |
 | [EvalForge](https://github.com/efolley/evalforge) | Auto-generated golden sets and red-team evals | ⚪ Planned |
 | [OpenDiligence](https://github.com/efolley/opendiligence) | Multi-agent diligence over SEC EDGAR filings | ⚪ Planned |
@@ -43,7 +44,7 @@ Each ships with an architecture diagram, ADRs, an eval scorecard with real numbe
 
 ## Stack
 
-Python · TypeScript · LangGraph · LangChain · LangSmith · MCP · GraphRAG · ontologies · Neo4j · Milvus · FastAPI · PostgreSQL · Redis · Docker · Azure · AWS · GCP · Palantir AIP
+Python/JS/TS/C++ · Agentic AI & Multi-agent systems · RAG · Knowledge Graphs & Ontologies · LLMOps (evals, guardrails, tracing) · LangGraph/LangChain/CrewAI · LangSmith · MCP · PostgreSQL · Redis · AWS/GCP/Azure · Docker · Google Vertex & AI Studio · Microsoft Foundry · Palantir AIP
 
 ---
 
