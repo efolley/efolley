@@ -34,6 +34,7 @@ Regulated, NDA-bound environments. Client code stays private, so the repos below
 | Project | What it is | Status |
 | --- | --- | --- |
 | [Rivet-KAG](https://github.com/efolley/Rivet-KAG) | Hybrid vector + graph RAG with cited answers, eval gates, guardrails, and cost controls | 🟢 [v0.1.0 released](https://github.com/efolley/Rivet-KAG/releases/tag/v0.1.0) |
+| [VentureOS](https://github.com/efolley/Venture-OS) | Six-agent business-operations harness that turns a target market into an evidence-backed offer, tailored outreach, and a working prototype | 🟡 Early scaffold |
 | [Vision AI Agent for Construction Safety](https://github.com/efolley/Vision-AI-Agent-for-Construction-Safety) | My second startup: built a multi-agent vision system for construction-site safety; MVP complete and now hardening it for production | 🟢 Prod in progress |
 | [AgentGate](https://github.com/efolley/agentgate) | Auth, routing, and audit for every agent and MCP call | 🟡 Design |
 | [EvalForge](https://github.com/efolley/evalforge) | Auto-generated golden sets and red-team evals | ⚪ Planned |
