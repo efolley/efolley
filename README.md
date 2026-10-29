@@ -16,7 +16,7 @@ Client-facing AI engineer building production agentic systems end-to-end, from C
 
 | Outcome | Where |
 | --- | --- |
-| Due diligence **4 months → ~1 hour** | $2M program, $90B AUM PE firm |
+| Due diligence **4 months → ~1 hour** | Lead FDE on $2M AI transformation, $90B AUM PE firm |
 | **93% Recall@10** on a 100+ question golden set | Regression-gated enterprise RAG-KAG |
 | Technology adoption **6 weeks → 3** | 5-agent platform, 750 documents |
 | Integration effort **−60%** | MCP server over 18 internal APIs |
